@@ -27,7 +27,7 @@ function App() {
         <Route path='/Contact' element={<Contact/>}/> 
         <Route path='/product/:category' element={<Product/>}/> 
         <Route path='/product/:category/:id' element={<Product/>}/> 
-        <Route path='*' element={<h1>page not found 404 erroor </h1>}/> 
+        <Route path='*' element={<h1>page not found 404 error </h1>}/> 
     </Routes>
     </>
   );
